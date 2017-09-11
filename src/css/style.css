@@ -45,7 +45,7 @@
     -webkit-flex-basis: 75%;
     flex-basis: 75%; }
     .container .main .filter {
-      background-color: rgba(102, 20, 45, 0.9);
+      background-color: rgba(102, 20, 45, 0.8);
       width: inherit;
       height: 100%; }
     .container .main .main-info {
@@ -54,7 +54,8 @@
       .container .main .main-info p {
         font-weight: 200; }
       .container .main .main-info ul {
-        margin-top: -0.8rem; }
+        margin-top: -0.8rem;
+        margin-bottom: 1rem; }
         .container .main .main-info ul li {
           font-weight: 200;
           margin-left: 1.5rem;

@@ -71,9 +71,8 @@
     flex-basis: 75%;
 
     .filter {
-      background-color: rgba($mainBackgroundColor, .9);
+      background-color: rgba($mainBackgroundColor, .8);
       width: inherit;
-      //opacity: 0.9;
       height: 100%;
     }
 
@@ -86,6 +85,7 @@
       }
       ul {
         margin-top: -0.8rem;
+        margin-bottom: 1rem;
 
         li {
           font-weight: 200;
