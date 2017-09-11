@@ -1,0 +1,148 @@
+/*** General resets ***/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  padding: 1rem;
+  background-color: #401934;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+/*# sourceMappingURL=reset.css.map */
+/*** Variables include ***/
+
+/*** Main structure styles ***/
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 30px #000000;
+}
+
+.container .aside {
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 25%;
+  flex-basis: 25%;
+  background-color: #7a164a;
+  padding: 2rem;
+  text-align: center;
+  border: 8px solid #f21a2f;
+  color: #ffffff;
+}
+
+.container .aside h1 {
+  font-size: 2.5rem;
+}
+
+.container .aside img {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #401934;
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  margin: 1rem 0;
+}
+
+.container .aside .social-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container .aside .social-links ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.container .aside .basic-info {
+  margin: 2rem 0 0 0;
+}
+
+.container .aside .basic-info h3 {
+  margin: 0.5rem 0;
+}
+
+.container .aside .basic-info p {
+  margin: 0;
+}
+
+.container .aside .basic-info a {
+  color: #ffffff;
+}
+
+.container .main {
+  -webkit-flex: 3;
+  flex: 3;
+  -webkit-flex-basis: 75%;
+  flex-basis: 75%;
+}
+
+.container .main .filter {
+  background-color: rgba(102, 20, 45, 0.9);
+  width: inherit;
+  height: 100%;
+}
+
+.container .main .main-info {
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.container .main .main-info p {
+  font-weight: 200;
+}
+
+.container .main .main-info ul {
+  margin-top: -0.8rem;
+}
+
+.container .main .main-info ul li {
+  font-weight: 200;
+  margin-left: 1.5rem;
+  font-size: .9rem;
+}
+
+@media all and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .aside,
+  .container .main {
+    width: 100%;
+  }
+
+  .container .aside .social-links ul li {
+    padding: 0.5rem;
+    display: inline-block;
+    border: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=variables.css.map */
